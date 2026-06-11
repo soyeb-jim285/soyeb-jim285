@@ -46,14 +46,20 @@
 <!-- custom palette: navy bg #1d242f, teal title/icon #36e2c3, cream text #f5eedd, deep-teal border #1a423d -->
 <div align="center">
 
+<table align="center"><tr>
+<td>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=soyeb-jim285&show_icons=true&count_private=true&hide_border=false&bg_color=1d242f&title_color=36e2c3&icon_color=36e2c3&text_color=f5eedd&border_color=1a423d" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=soyeb-jim285&show_icons=true&count_private=true&hide_border=false&bg_color=fbf9f2&title_color=147b6d&icon_color=147b6d&text_color=1d242f&border_color=147b6d" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=soyeb-jim285&show_icons=true&count_private=true&hide_border=false&card_width=420&bg_color=1d242f&title_color=36e2c3&icon_color=36e2c3&text_color=f5eedd&border_color=1a423d" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=soyeb-jim285&show_icons=true&count_private=true&hide_border=false&card_width=420&bg_color=fbf9f2&title_color=147b6d&icon_color=147b6d&text_color=1d242f&border_color=147b6d" />
 </picture>
+</td>
+<td>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=soyeb-jim285&layout=compact&langs_count=8&hide_border=false&bg_color=1d242f&title_color=36e2c3&text_color=f5eedd&border_color=1a423d" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=soyeb-jim285&layout=compact&langs_count=8&hide_border=false&bg_color=fbf9f2&title_color=147b6d&text_color=1d242f&border_color=147b6d" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=soyeb-jim285&layout=compact&langs_count=8&hide_border=false&card_width=340&bg_color=1d242f&title_color=36e2c3&text_color=f5eedd&border_color=1a423d" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=soyeb-jim285&layout=compact&langs_count=8&hide_border=false&card_width=340&bg_color=fbf9f2&title_color=147b6d&text_color=1d242f&border_color=147b6d" />
 </picture>
+</td>
+</tr></table>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=soyeb-jim285&hide_border=false&background=1d242f&border=1a423d&stroke=1a423d&ring=36e2c3&fire=36e2c3&currStreakNum=f5eedd&currStreakLabel=36e2c3&sideNums=f5eedd&sideLabels=36e2c3&dates=f5eedd" />
@@ -71,8 +77,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soyeb-jim285/soyeb-jim285/output/github-contribution-grid-snake-dark.svg" />
-  <img alt="snake" src="https://raw.githubusercontent.com/soyeb-jim285/soyeb-jim285/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soyeb-jim285/soyeb-jim285/output/github-contribution-grid-snake-dark.svg?v=3" />
+  <img alt="snake" src="https://raw.githubusercontent.com/soyeb-jim285/soyeb-jim285/output/github-contribution-grid-snake.svg?v=3" />
 </picture>
 
 </div>
