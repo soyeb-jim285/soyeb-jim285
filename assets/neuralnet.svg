@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 230" width="900" height="230" fill="none" role="img" aria-label="neural network forward pass">
+  <style>
+    .edge { stroke:#1a423d; stroke-width:1; opacity:.45; }
+    .sig  { stroke:#36e2c3; stroke-width:1.6; fill:none; }
+    .node { fill:#1d242f; stroke:#36e2c3; stroke-width:2; }
+    .nglow{ fill:#36e2c3; }
+    @media (prefers-color-scheme: light){
+      .edge { stroke:#bcd9d2; }
+      .sig  { stroke:#147b6d; }
+      .node { fill:#fbf9f2; stroke:#147b6d; }
+      .nglow{ fill:#147b6d; }
+    }
+  </style>
+  <g>
+    <line class="edge" x1="130" y1="30" x2="370" y2="30"/>
+    <line class="edge" x1="130" y1="30" x2="370" y2="64"/>
+    <line class="edge" x1="130" y1="30" x2="370" y2="98"/>
+    <line class="edge" x1="130" y1="30" x2="370" y2="132"/>
+    <line class="edge" x1="130" y1="30" x2="370" y2="166"/>
+    <line class="edge" x1="130" y1="30" x2="370" y2="200"/>
+    <line class="edge" x1="130" y1="87" x2="370" y2="30"/>
+    <line class="edge" x1="130" y1="87" x2="370" y2="64"/>
+    <line class="edge" x1="130" y1="87" x2="370" y2="98"/>
+    <line class="edge" x1="130" y1="87" x2="370" y2="132"/>
+    <line class="edge" x1="130" y1="87" x2="370" y2="166"/>
+    <line class="edge" x1="130" y1="87" x2="370" y2="200"/>
+    <line class="edge" x1="130" y1="143" x2="370" y2="30"/>
+    <line class="edge" x1="130" y1="143" x2="370" y2="64"/>
+    <line class="edge" x1="130" y1="143" x2="370" y2="98"/>
+    <line class="edge" x1="130" y1="143" x2="370" y2="132"/>
+    <line class="edge" x1="130" y1="143" x2="370" y2="166"/>
+    <line class="edge" x1="130" y1="143" x2="370" y2="200"/>
+    <line class="edge" x1="130" y1="200" x2="370" y2="30"/>
+    <line class="edge" x1="130" y1="200" x2="370" y2="64"/>
+    <line class="edge" x1="130" y1="200" x2="370" y2="98"/>
+    <line class="edge" x1="130" y1="200" x2="370" y2="132"/>
+    <line class="edge" x1="130" y1="200" x2="370" y2="166"/>
+    <line class="edge" x1="130" y1="200" x2="370" y2="200"/>
+    <line class="edge" x1="370" y1="30" x2="610" y2="30"/>
+    <line class="edge" x1="370" y1="30" x2="610" y2="64"/>
+    <line class="edge" x1="370" y1="30" x2="610" y2="98"/>
+    <line class="edge" x1="370" y1="30" x2="610" y2="132"/>
+    <line class="edge" x1="370" y1="30" x2="610" y2="166"/>
+    <line class="edge" x1="370" y1="30" x2="610" y2="200"/>
+    <line class="edge" x1="370" y1="64" x2="610" y2="30"/>
+    <line class="edge" x1="370" y1="64" x2="610" y2="64"/>
+    <line class="edge" x1="370" y1="64" x2="610" y2="98"/>
+    <line class="edge" x1="370" y1="64" x2="610" y2="132"/>
+    <line class="edge" x1="370" y1="64" x2="610" y2="166"/>
+    <line class="edge" x1="370" y1="64" x2="610" y2="200"/>
+    <line class="edge" x1="370" y1="98" x2="610" y2="30"/>
+    <line class="edge" x1="370" y1="98" x2="610" y2="64"/>
+    <line class="edge" x1="370" y1="98" x2="610" y2="98"/>
+    <line class="edge" x1="370" y1="98" x2="610" y2="132"/>
+    <line class="edge" x1="370" y1="98" x2="610" y2="166"/>
+    <line class="edge" x1="370" y1="98" x2="610" y2="200"/>
+    <line class="edge" x1="370" y1="132" x2="610" y2="30"/>
+    <line class="edge" x1="370" y1="132" x2="610" y2="64"/>
+    <line class="edge" x1="370" y1="132" x2="610" y2="98"/>
+    <line class="edge" x1="370" y1="132" x2="610" y2="132"/>
+    <line class="edge" x1="370" y1="132" x2="610" y2="166"/>
+    <line class="edge" x1="370" y1="132" x2="610" y2="200"/>
+    <line class="edge" x1="370" y1="166" x2="610" y2="30"/>
+    <line class="edge" x1="370" y1="166" x2="610" y2="64"/>
+    <line class="edge" x1="370" y1="166" x2="610" y2="98"/>
+    <line class="edge" x1="370" y1="166" x2="610" y2="132"/>
+    <line class="edge" x1="370" y1="166" x2="610" y2="166"/>
+    <line class="edge" x1="370" y1="166" x2="610" y2="200"/>
+    <line class="edge" x1="370" y1="200" x2="610" y2="30"/>
+    <line class="edge" x1="370" y1="200" x2="610" y2="64"/>
+    <line class="edge" x1="370" y1="200" x2="610" y2="98"/>
+    <line class="edge" x1="370" y1="200" x2="610" y2="132"/>
+    <line class="edge" x1="370" y1="200" x2="610" y2="166"/>
+    <line class="edge" x1="370" y1="200" x2="610" y2="200"/>
+    <line class="edge" x1="610" y1="30" x2="820" y2="30"/>
+    <line class="edge" x1="610" y1="30" x2="820" y2="115"/>
+    <line class="edge" x1="610" y1="30" x2="820" y2="200"/>
+    <line class="edge" x1="610" y1="64" x2="820" y2="30"/>
+    <line class="edge" x1="610" y1="64" x2="820" y2="115"/>
+    <line class="edge" x1="610" y1="64" x2="820" y2="200"/>
+    <line class="edge" x1="610" y1="98" x2="820" y2="30"/>
+    <line class="edge" x1="610" y1="98" x2="820" y2="115"/>
+    <line class="edge" x1="610" y1="98" x2="820" y2="200"/>
+    <line class="edge" x1="610" y1="132" x2="820" y2="30"/>
+    <line class="edge" x1="610" y1="132" x2="820" y2="115"/>
+    <line class="edge" x1="610" y1="132" x2="820" y2="200"/>
+    <line class="edge" x1="610" y1="166" x2="820" y2="30"/>
+    <line class="edge" x1="610" y1="166" x2="820" y2="115"/>
+    <line class="edge" x1="610" y1="166" x2="820" y2="200"/>
+    <line class="edge" x1="610" y1="200" x2="820" y2="30"/>
+    <line class="edge" x1="610" y1="200" x2="820" y2="115"/>
+    <line class="edge" x1="610" y1="200" x2="820" y2="200"/>
+  </g>
+  <g>
+    <line class="sig" x1="130" y1="30" x2="370" y2="30" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="130" y1="30" x2="370" y2="64" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="130" y1="30" x2="370" y2="98" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="130" y1="30" x2="370" y2="132" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="130" y1="30" x2="370" y2="166" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="130" y1="30" x2="370" y2="200" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="130" y1="87" x2="370" y2="30" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="130" y1="87" x2="370" y2="64" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="130" y1="87" x2="370" y2="98" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="130" y1="87" x2="370" y2="132" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="130" y1="87" x2="370" y2="166" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="130" y1="87" x2="370" y2="200" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="130" y1="143" x2="370" y2="30" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="130" y1="143" x2="370" y2="64" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="130" y1="143" x2="370" y2="98" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="130" y1="143" x2="370" y2="132" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="130" y1="143" x2="370" y2="166" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="130" y1="143" x2="370" y2="200" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="130" y1="200" x2="370" y2="30" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="130" y1="200" x2="370" y2="64" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="130" y1="200" x2="370" y2="98" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="130" y1="200" x2="370" y2="132" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="130" y1="200" x2="370" y2="166" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="130" y1="200" x2="370" y2="200" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="30" x2="610" y2="30" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="30" x2="610" y2="64" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="30" x2="610" y2="98" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="30" x2="610" y2="132" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="30" x2="610" y2="166" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="30" x2="610" y2="200" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="64" x2="610" y2="30" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="64" x2="610" y2="64" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="64" x2="610" y2="98" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="64" x2="610" y2="132" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="64" x2="610" y2="166" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="64" x2="610" y2="200" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="98" x2="610" y2="30" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="98" x2="610" y2="64" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="98" x2="610" y2="98" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="98" x2="610" y2="132" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="98" x2="610" y2="166" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="98" x2="610" y2="200" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="132" x2="610" y2="30" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="132" x2="610" y2="64" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="132" x2="610" y2="98" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="132" x2="610" y2="132" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="132" x2="610" y2="166" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="132" x2="610" y2="200" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="166" x2="610" y2="30" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="166" x2="610" y2="64" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="166" x2="610" y2="98" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="166" x2="610" y2="132" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="166" x2="610" y2="166" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="166" x2="610" y2="200" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="200" x2="610" y2="30" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="200" x2="610" y2="64" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="200" x2="610" y2="98" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="200" x2="610" y2="132" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="200" x2="610" y2="166" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="370" y1="200" x2="610" y2="200" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="610" y1="30" x2="820" y2="30" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.90s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="610" y1="30" x2="820" y2="115" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.90s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="610" y1="30" x2="820" y2="200" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.90s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="610" y1="64" x2="820" y2="30" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.90s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="610" y1="64" x2="820" y2="115" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.90s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="610" y1="64" x2="820" y2="200" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.90s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="610" y1="98" x2="820" y2="30" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.90s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="610" y1="98" x2="820" y2="115" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.90s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="610" y1="98" x2="820" y2="200" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.90s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="610" y1="132" x2="820" y2="30" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.90s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="610" y1="132" x2="820" y2="115" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.90s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="610" y1="132" x2="820" y2="200" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.90s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="610" y1="166" x2="820" y2="30" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.90s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="610" y1="166" x2="820" y2="115" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.90s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="610" y1="166" x2="820" y2="200" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.90s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="610" y1="200" x2="820" y2="30" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.90s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="610" y1="200" x2="820" y2="115" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.90s" repeatCount="indefinite"/></line>
+    <line class="sig" x1="610" y1="200" x2="820" y2="200" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.8s" begin="0.90s" repeatCount="indefinite"/></line>
+  </g>
+  <g>
+    <circle class="nglow" cx="130" cy="30" r="6"><animate attributeName="r" values="5;11;5" dur="1.8s" begin="0.00s" repeatCount="indefinite"/><animate attributeName="opacity" values=".15;.6;.15" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></circle>
+    <circle class="node" cx="130" cy="30" r="7"/>
+    <circle class="nglow" cx="130" cy="87" r="6"><animate attributeName="r" values="5;11;5" dur="1.8s" begin="0.00s" repeatCount="indefinite"/><animate attributeName="opacity" values=".15;.6;.15" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></circle>
+    <circle class="node" cx="130" cy="87" r="7"/>
+    <circle class="nglow" cx="130" cy="143" r="6"><animate attributeName="r" values="5;11;5" dur="1.8s" begin="0.00s" repeatCount="indefinite"/><animate attributeName="opacity" values=".15;.6;.15" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></circle>
+    <circle class="node" cx="130" cy="143" r="7"/>
+    <circle class="nglow" cx="130" cy="200" r="6"><animate attributeName="r" values="5;11;5" dur="1.8s" begin="0.00s" repeatCount="indefinite"/><animate attributeName="opacity" values=".15;.6;.15" dur="1.8s" begin="0.00s" repeatCount="indefinite"/></circle>
+    <circle class="node" cx="130" cy="200" r="7"/>
+    <circle class="nglow" cx="370" cy="30" r="6"><animate attributeName="r" values="5;11;5" dur="1.8s" begin="0.45s" repeatCount="indefinite"/><animate attributeName="opacity" values=".15;.6;.15" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></circle>
+    <circle class="node" cx="370" cy="30" r="7"/>
+    <circle class="nglow" cx="370" cy="64" r="6"><animate attributeName="r" values="5;11;5" dur="1.8s" begin="0.45s" repeatCount="indefinite"/><animate attributeName="opacity" values=".15;.6;.15" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></circle>
+    <circle class="node" cx="370" cy="64" r="7"/>
+    <circle class="nglow" cx="370" cy="98" r="6"><animate attributeName="r" values="5;11;5" dur="1.8s" begin="0.45s" repeatCount="indefinite"/><animate attributeName="opacity" values=".15;.6;.15" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></circle>
+    <circle class="node" cx="370" cy="98" r="7"/>
+    <circle class="nglow" cx="370" cy="132" r="6"><animate attributeName="r" values="5;11;5" dur="1.8s" begin="0.45s" repeatCount="indefinite"/><animate attributeName="opacity" values=".15;.6;.15" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></circle>
+    <circle class="node" cx="370" cy="132" r="7"/>
+    <circle class="nglow" cx="370" cy="166" r="6"><animate attributeName="r" values="5;11;5" dur="1.8s" begin="0.45s" repeatCount="indefinite"/><animate attributeName="opacity" values=".15;.6;.15" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></circle>
+    <circle class="node" cx="370" cy="166" r="7"/>
+    <circle class="nglow" cx="370" cy="200" r="6"><animate attributeName="r" values="5;11;5" dur="1.8s" begin="0.45s" repeatCount="indefinite"/><animate attributeName="opacity" values=".15;.6;.15" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></circle>
+    <circle class="node" cx="370" cy="200" r="7"/>
+    <circle class="nglow" cx="610" cy="30" r="6"><animate attributeName="r" values="5;11;5" dur="1.8s" begin="0.90s" repeatCount="indefinite"/><animate attributeName="opacity" values=".15;.6;.15" dur="1.8s" begin="0.90s" repeatCount="indefinite"/></circle>
+    <circle class="node" cx="610" cy="30" r="7"/>
+    <circle class="nglow" cx="610" cy="64" r="6"><animate attributeName="r" values="5;11;5" dur="1.8s" begin="0.90s" repeatCount="indefinite"/><animate attributeName="opacity" values=".15;.6;.15" dur="1.8s" begin="0.90s" repeatCount="indefinite"/></circle>
+    <circle class="node" cx="610" cy="64" r="7"/>
+    <circle class="nglow" cx="610" cy="98" r="6"><animate attributeName="r" values="5;11;5" dur="1.8s" begin="0.90s" repeatCount="indefinite"/><animate attributeName="opacity" values=".15;.6;.15" dur="1.8s" begin="0.90s" repeatCount="indefinite"/></circle>
+    <circle class="node" cx="610" cy="98" r="7"/>
+    <circle class="nglow" cx="610" cy="132" r="6"><animate attributeName="r" values="5;11;5" dur="1.8s" begin="0.90s" repeatCount="indefinite"/><animate attributeName="opacity" values=".15;.6;.15" dur="1.8s" begin="0.90s" repeatCount="indefinite"/></circle>
+    <circle class="node" cx="610" cy="132" r="7"/>
+    <circle class="nglow" cx="610" cy="166" r="6"><animate attributeName="r" values="5;11;5" dur="1.8s" begin="0.90s" repeatCount="indefinite"/><animate attributeName="opacity" values=".15;.6;.15" dur="1.8s" begin="0.90s" repeatCount="indefinite"/></circle>
+    <circle class="node" cx="610" cy="166" r="7"/>
+    <circle class="nglow" cx="610" cy="200" r="6"><animate attributeName="r" values="5;11;5" dur="1.8s" begin="0.90s" repeatCount="indefinite"/><animate attributeName="opacity" values=".15;.6;.15" dur="1.8s" begin="0.90s" repeatCount="indefinite"/></circle>
+    <circle class="node" cx="610" cy="200" r="7"/>
+    <circle class="nglow" cx="820" cy="30" r="6"><animate attributeName="r" values="5;11;5" dur="1.8s" begin="1.35s" repeatCount="indefinite"/><animate attributeName="opacity" values=".15;.6;.15" dur="1.8s" begin="1.35s" repeatCount="indefinite"/></circle>
+    <circle class="node" cx="820" cy="30" r="7"/>
+    <circle class="nglow" cx="820" cy="115" r="6"><animate attributeName="r" values="5;11;5" dur="1.8s" begin="1.35s" repeatCount="indefinite"/><animate attributeName="opacity" values=".15;.6;.15" dur="1.8s" begin="1.35s" repeatCount="indefinite"/></circle>
+    <circle class="node" cx="820" cy="115" r="7"/>
+    <circle class="nglow" cx="820" cy="200" r="6"><animate attributeName="r" values="5;11;5" dur="1.8s" begin="1.35s" repeatCount="indefinite"/><animate attributeName="opacity" values=".15;.6;.15" dur="1.8s" begin="1.35s" repeatCount="indefinite"/></circle>
+    <circle class="node" cx="820" cy="200" r="7"/>
+  </g>
+</svg>

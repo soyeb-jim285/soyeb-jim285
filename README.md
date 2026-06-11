@@ -5,8 +5,13 @@
 
 <!-- Typing animation — teal -->
 <a href="https://github.com/soyeb-jim285">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=36E2C3&center=true&vCenter=true&width=600&lines=Building+tools+for+Hyprland;C%2B%2B+%2F+Qt+%2F+QML+enthusiast;Arch+Linux+%2B+dotfiles+tinkerer;EEE+%40+University+of+Dhaka" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=36E2C3&center=true&vCenter=true&width=600&lines=AI+agents+%2B+agentic+workflows;Biosignal+ML+%2B+Wayland+tooling;C%2B%2B+%2F+Qt+%2F+QML+%2F+PyTorch;Arch+Linux+%2B+Hyprland+ricer" alt="typing" />
 </a>
+
+<br/>
+
+<!-- themed neural-net forward pass (ties to ML / attention-viz work) -->
+<img width="100%" alt="neural network" src="https://raw.githubusercontent.com/soyeb-jim285/soyeb-jim285/main/assets/neuralnet.svg?v=1" />
 
 </div>
 
@@ -14,12 +19,12 @@
 
 ### 🧑‍💻 About
 
-- 🔭 Building **[hyprfm](https://github.com/soyeb-jim285/hyprfm)** (Qt6/QML file manager) & **[quill](https://github.com/soyeb-jim285/quill)** (themed QML component lib)
-- 🐧 Daily-drive **Arch Linux + Hyprland**, ricing in [soydots](https://github.com/soyeb-jim285/soydots)
-- 🧩 Competitive programming on Codeforces — built [codeforces_user_total_difficulty](https://github.com/soyeb-jim285/codeforces_user_total_difficulty)
-- 🎓 EEE @ University of Dhaka
-- 🏢 [@fuego-studios](https://github.com/fuego-studios)
-- 📫 soyeb.jim@gmail.com
+- 💼 At [@fuego-studios](https://github.com/fuego-studios) I work on AI agents and agentic workflows for e-commerce: tool-calling chat, semantic product search with RAG, and multi-model LLM pipelines
+- 🔬 I work on biosignal machine learning too: ECG image digitization, EEG/EMG motion tasks, and a few model-interpretability demos
+- 🖥️ On the side I write Wayland desktop tools in Qt6/QML, like [hyprfm](https://github.com/soyeb-jim285/hyprfm) (file manager) and [quill](https://github.com/soyeb-jim285/quill) (component library)
+- 🐧 I daily-drive Arch + Hyprland. My setup lives in [soydots](https://github.com/soyeb-jim285/soydots)
+- 🧩 I solve problems on Codeforces and CodeChef when I want a break from building things
+- 🎓 EEE at the University of Dhaka. Reach me at soyeb.jim@gmail.com
 
 ---
 
@@ -38,6 +43,14 @@
 ![Hyprland](https://img.shields.io/badge/Hyprland-58E1FF?style=for-the-badge&logo=wayland&logoColor=black)
 ![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+**AI / Agents**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Vercel AI SDK](https://img.shields.io/badge/Vercel_AI_SDK-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Agents](https://img.shields.io/badge/Tool--calling_Agents-147B6D?style=for-the-badge&logo=probot&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG_%2B_Vector_Search-36E2C3?style=for-the-badge&logo=meilisearch&logoColor=black)
 
 ---
 
