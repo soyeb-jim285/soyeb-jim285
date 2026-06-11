@@ -11,7 +11,7 @@
 <br/>
 
 <!-- themed neural-net forward pass (ties to ML / attention-viz work) -->
-<img width="100%" alt="neural network" src="https://raw.githubusercontent.com/soyeb-jim285/soyeb-jim285/main/assets/neuralnet.svg?v=3" />
+<img width="100%" alt="neural network" src="https://raw.githubusercontent.com/soyeb-jim285/soyeb-jim285/main/assets/neuralnet.svg?v=4" />
 
 </div>
 
