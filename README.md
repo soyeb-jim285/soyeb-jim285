@@ -56,43 +56,44 @@
 
 ### 📊 GitHub Stats
 
-<!-- custom palette: navy bg #1d242f, teal title/icon #36e2c3, cream text #f5eedd, deep-teal border #1a423d -->
 <div align="center">
 
 <table align="center"><tr>
 <td>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=soyeb-jim285&show_icons=true&count_private=true&hide_border=false&card_width=420&bg_color=1d242f&title_color=36e2c3&icon_color=36e2c3&text_color=f5eedd&border_color=1a423d" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=soyeb-jim285&show_icons=true&count_private=true&hide_border=false&card_width=420&bg_color=fbf9f2&title_color=147b6d&icon_color=147b6d&text_color=1d242f&border_color=147b6d" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=soyeb-jim285&show_icons=true&count_private=true&include_all_commits=true&rank_icon=percentile&hide_border=true&card_width=430&bg_color=161b22&title_color=36e2c3&icon_color=36e2c3&text_color=c9d1d9&border_color=1a423d" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=soyeb-jim285&show_icons=true&count_private=true&include_all_commits=true&rank_icon=percentile&hide_border=true&card_width=430&bg_color=fbf9f2&title_color=147b6d&icon_color=147b6d&text_color=1d242f&border_color=cfe9e2" />
 </picture>
 </td>
 <td>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=soyeb-jim285&layout=compact&langs_count=8&hide_border=false&card_width=340&bg_color=1d242f&title_color=36e2c3&text_color=f5eedd&border_color=1a423d" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=soyeb-jim285&layout=compact&langs_count=8&hide_border=false&card_width=340&bg_color=fbf9f2&title_color=147b6d&text_color=1d242f&border_color=147b6d" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=soyeb-jim285&layout=compact&langs_count=8&hide_border=true&card_width=330&bg_color=161b22&title_color=36e2c3&text_color=c9d1d9&border_color=1a423d" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=soyeb-jim285&layout=compact&langs_count=8&hide_border=true&card_width=330&bg_color=fbf9f2&title_color=147b6d&text_color=1d242f&border_color=cfe9e2" />
 </picture>
 </td>
 </tr></table>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=soyeb-jim285&hide_border=false&background=1d242f&border=1a423d&stroke=1a423d&ring=36e2c3&fire=36e2c3&currStreakNum=f5eedd&currStreakLabel=36e2c3&sideNums=f5eedd&sideLabels=36e2c3&dates=f5eedd" />
-  <img src="https://streak-stats.demolab.com?user=soyeb-jim285&hide_border=false&background=fbf9f2&border=147b6d&stroke=147b6d&ring=147b6d&fire=147b6d&currStreakNum=1d242f&currStreakLabel=147b6d&sideNums=1d242f&sideLabels=147b6d&dates=1d242f" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=soyeb-jim285&hide_border=true&background=161b22&border=1a423d&stroke=1a423d&ring=36e2c3&fire=36e2c3&currStreakNum=c9d1d9&currStreakLabel=36e2c3&sideNums=c9d1d9&sideLabels=36e2c3&dates=8b949e" />
+  <img src="https://streak-stats.demolab.com?user=soyeb-jim285&hide_border=true&background=fbf9f2&border=cfe9e2&stroke=cfe9e2&ring=147b6d&fire=147b6d&currStreakNum=1d242f&currStreakLabel=147b6d&sideNums=1d242f&sideLabels=147b6d&dates=6e7781" />
 </picture>
 
-<img src="https://github-profile-trophy.vercel.app/?username=soyeb-jim285&theme=onedark&no-frame=true&column=7&margin-w=5" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=soyeb-jim285&bg_color=161b22&color=f5eedd&line=36e2c3&point=a8f0e3&area=true&area_color=147b6d&hide_border=true&custom_title=Contribution%20Graph&height=300" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=soyeb-jim285&bg_color=fbf9f2&color=1d242f&line=147b6d&point=147b6d&area=true&area_color=a8d8cf&hide_border=true&custom_title=Contribution%20Graph&height=300" />
+</picture>
 
 </div>
 
 ---
 
-### 🐍 Contribution Snake
+### 🧭 A* over my contribution graph
+
+> A little A* pathfinder I wrote: it explores my last-year contribution grid (gray cells light up teal as they're visited), weighting each day by commit count, then draws the cheapest route from my first day to my last through my busiest days.
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soyeb-jim285/soyeb-jim285/output/github-contribution-grid-snake-dark.svg?v=3" />
-  <img alt="snake" src="https://raw.githubusercontent.com/soyeb-jim285/soyeb-jim285/output/github-contribution-grid-snake.svg?v=3" />
-</picture>
+<img width="100%" alt="A* pathfinding over my contribution graph" src="https://raw.githubusercontent.com/soyeb-jim285/soyeb-jim285/main/assets/pathfinding.svg?v=1" />
 
 </div>
 
