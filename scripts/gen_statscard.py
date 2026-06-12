@@ -90,13 +90,14 @@ colB = [("repos",str(repocount)),("stars",str(stars)),("streak",f"{cur_streak} d
 FS=6.0; LH=6.2
 W=900; H=max(300,int(70+len(FACE)*LH+60))
 
-L=[f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" font-family="JetBrains Mono, Consolas, monospace" role="img" aria-label="github stats card">']
+L=[f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" font-family="ui-monospace, &quot;Cascadia Code&quot;, &quot;JetBrains Mono&quot;, &quot;Fira Code&quot;, Consolas, Menlo, monospace" role="img" aria-label="github stats card">']
 L.append('''  <style>
+    text{font-variant-ligatures:none;}
     .win{fill:#0d1117;stroke:#1a423d;} .bar{fill:#11161d;}
-    .t{fill:#5b6473;font-size:12px;} .key{fill:#36e2c3;font-size:13px;font-weight:600;}
-    .val{fill:#c9d1d9;font-size:13px;} .hdr{fill:#36e2c3;font-size:15px;font-weight:700;}
-    .at{fill:#f0a83b;font-size:14px;font-weight:700;} .face{fill:#36e2c3;} .foc{fill:#f0a83b;font-size:12px;}
-    .lg{fill:#8a93a3;font-size:11px;} .div{stroke:#1a423d;}
+    .t{fill:#5b6473;font-size:14px;} .key{fill:#36e2c3;font-size:16px;font-weight:600;}
+    .val{fill:#c9d1d9;font-size:16px;} .hdr{fill:#36e2c3;font-size:19px;font-weight:700;}
+    .at{fill:#f0a83b;font-size:16px;font-weight:700;} .face{fill:#36e2c3;} .foc{fill:#f0a83b;font-size:12px;}
+    .lg{fill:#8a93a3;font-size:12px;} .div{stroke:#1a423d;}
     @media (prefers-color-scheme:light){
       .win{fill:#ffffff;stroke:#cfe9e2;} .bar{fill:#f3f6f4;}
       .t{fill:#9aa2b0;} .key{fill:#0f9b86;} .val{fill:#1d242f;} .hdr{fill:#0f9b86;}
@@ -107,22 +108,22 @@ L.append(f'<rect class="win" x="1" y="1" width="{W-2}" height="{H-2}" rx="12" st
 L.append(f'<rect class="bar" x="1" y="1" width="{W-2}" height="34" rx="12"/>')
 L.append('<rect class="bar" x="1" y="22" width="240" height="13"/>')
 for i,c in enumerate(["#ff5f56","#ffbd2e","#27c93f"]): L.append(f'<circle cx="{22+i*20}" cy="18" r="6" fill="{c}"/>')
-L.append('<text class="t" x="98" y="22">soyeb@github: ~/profile</text>')
-L.append('<text x="24" y="58" class="val"><tspan class="at">soyeb@github</tspan>:<tspan fill="#36e2c3">~</tspan>$ git fetch --stats</text>')
-y0=72
+L.append('<text class="t" x="98" y="23" font-size="13">soyeb@github: ~/profile</text>')
+L.append('<text x="24" y="60" class="val"><tspan class="at">soyeb@github</tspan>:<tspan fill="#36e2c3">~</tspan>$ git fetch --stats</text>')
+y0=78
 for i,ln in enumerate(FACE):
     L.append(f'<text class="face" font-size="{FS}" x="30" y="{y0+i*LH:.1f}" xml:space="preserve">{esc(ln)}</text>')
 x0=300
-L.append(f'<text class="hdr" x="{x0}" y="92">Soyeb Pervez Jim</text>')
-L.append(f'<text class="t" x="{x0}" y="109">@soyeb-jim285  &#183;  EEE @ Univ. of Dhaka</text>')
-ay=140
+L.append(f'<text class="hdr" x="{x0}" y="98">Soyeb Pervez Jim</text>')
+L.append(f'<text class="t" x="{x0}" y="118">@soyeb-jim285  &#183;  EEE @ Univ. of Dhaka</text>')
+ay=152
 for i,(k,v) in enumerate(colA):
-    y=ay+i*22
-    L.append(f'<text class="key" x="{x0}" y="{y}">{k:<10}</text><text class="val" x="{x0+92}" y="{y}">{v}</text>')
-xb=x0+300
+    y=ay+i*27
+    L.append(f'<text class="key" x="{x0}" y="{y}">{k:<10}</text><text class="val" x="{x0+108}" y="{y}">{v}</text>')
+xb=x0+310
 for i,(k,v) in enumerate(colB):
-    y=ay+i*22
-    L.append(f'<text class="key" x="{xb}" y="{y}">{k:<8}</text><text class="val" x="{xb+72}" y="{y}">{v}</text>')
+    y=ay+i*27
+    L.append(f'<text class="key" x="{xb}" y="{y}">{k:<9}</text><text class="val" x="{xb+92}" y="{y}">{v}</text>')
 L.append(f'<line class="div" x1="24" y1="{H-46}" x2="{W-24}" y2="{H-46}" stroke-width="1"/>')
 bx,by,bw,bh=24,H-38,W-48,12; acc=0
 for n,s in top:
