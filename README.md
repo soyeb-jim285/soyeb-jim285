@@ -84,7 +84,7 @@
 
 ### 🧭 A* over my contribution graph
 
-> A little A* pathfinder I wrote: it explores my last-year contribution grid (gray cells light up teal as they're visited), weighting each day by commit count, then draws the cheapest route from my first day to my last through my busiest days.
+> A* pathfinding over my GitHub contribution graph. Every cell is a day, weighted by how many commits it has. It explores the grid (gray cells turn teal as they're visited), then draws the cheapest route from my oldest day to my most recent, weaving through the busy ones. It refreshes daily, so it follows whatever I'm working on.
 
 <div align="center">
 
