@@ -78,11 +78,6 @@
   <img src="https://streak-stats.demolab.com?user=soyeb-jim285&hide_border=true&background=fbf9f2&border=cfe9e2&stroke=cfe9e2&ring=147b6d&fire=147b6d&currStreakNum=1d242f&currStreakLabel=147b6d&sideNums=1d242f&sideLabels=147b6d&dates=6e7781" />
 </picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=soyeb-jim285&bg_color=161b22&color=f5eedd&line=36e2c3&point=a8f0e3&area=true&area_color=147b6d&hide_border=true&custom_title=Contribution%20Graph&height=300" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=soyeb-jim285&bg_color=fbf9f2&color=1d242f&line=147b6d&point=147b6d&area=true&area_color=a8d8cf&hide_border=true&custom_title=Contribution%20Graph&height=300" />
-</picture>
-
 </div>
 
 ---

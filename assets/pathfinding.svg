@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 910 148" width="910" height="148" fill="none" role="img" aria-label="A* (W=10) over my contribution graph">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 910 148" width="910" height="148" fill="none" role="img" aria-label="A* over my contribution graph">
   <style>
     .g0{fill:#14181d;} .g1{fill:#2a2f37;} .g2{fill:#3d434d;} .g3{fill:#525964;} .g4{fill:#6b7480;}
-    .e0{fill:#1f2733;} .e1{fill:#0e4f44;} .e2{fill:#15806f;} .e3{fill:#1fb89f;} .e4{fill:#36e2c3;}  /* revealed */
+    .e0{fill:#1f2733;} .e1{fill:#0e4f44;} .e2{fill:#15806f;} .e3{fill:#1fb89f;} .e4{fill:#36e2c3;}
     .path{fill:#f0a83b;} .ep{fill:#ef4d6b;}
     .cap{fill:#5b6473;font:11px JetBrains Mono,monospace;}
     @media (prefers-color-scheme:light){
@@ -780,5 +780,5 @@
   </g>
   <rect class="ep" x="6" y="6" width="14" height="14" rx="3"/>
   <rect class="ep" x="890" y="91" width="14" height="14" rx="3"/>
-  <text class="cap" x="6" y="142">A* finds the cheapest path through my busiest days  ·  gray→teal = explored  ·  gold = path  ·  red = first/last day</text>
+  <text class="cap" x="6" y="142">A* finds the cheapest path through my busiest days  ·  gray&#8594;teal = explored  ·  gold = path  ·  red = first/last day</text>
 </svg>

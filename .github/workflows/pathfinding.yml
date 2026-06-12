@@ -1,0 +1,52 @@
+name: Refresh pathfinding
+
+on:
+  schedule:
+    - cron: "17 3 * * *"     # daily, 03:17 UTC
+  workflow_dispatch:           # manual run button
+  push:
+    branches: [main]
+    paths:
+      - scripts/gen_pathfinding.py
+      - .github/workflows/pathfinding.yml
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5  # v4
+
+      - name: Fetch contribution calendar
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api graphql -f query='
+            query($login: String!) {
+              user(login: $login) {
+                contributionsCollection {
+                  contributionCalendar {
+                    weeks { contributionDays { weekday contributionCount contributionLevel } }
+                  }
+                }
+              }
+            }' -F login=soyeb-jim285 > calendar.json
+          python3 -c "import json;d=json.load(open('calendar.json'));w=d['data']['user']['contributionsCollection']['contributionCalendar']['weeks'];print('active days:',sum(1 for x in w for day in x['contributionDays'] if day['contributionCount']>0))"
+
+      - name: Generate SVG
+        run: python3 scripts/gen_pathfinding.py
+
+      - name: Commit if changed
+        run: |
+          rm -f calendar.json
+          if git diff --quiet -- assets/pathfinding.svg; then
+            echo "no change"
+          else
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add assets/pathfinding.svg
+            git commit -m "chore: refresh A* contribution pathfinding"
+            git push
+          fi
