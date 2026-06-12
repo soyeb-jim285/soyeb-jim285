@@ -58,25 +58,7 @@
 
 <div align="center">
 
-<table align="center"><tr>
-<td>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=soyeb-jim285&show_icons=true&count_private=true&include_all_commits=true&rank_icon=percentile&hide_border=true&card_width=430&bg_color=161b22&title_color=36e2c3&icon_color=36e2c3&text_color=c9d1d9&border_color=1a423d" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=soyeb-jim285&show_icons=true&count_private=true&include_all_commits=true&rank_icon=percentile&hide_border=true&card_width=430&bg_color=fbf9f2&title_color=147b6d&icon_color=147b6d&text_color=1d242f&border_color=cfe9e2" />
-</picture>
-</td>
-<td>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=soyeb-jim285&layout=compact&langs_count=8&hide_border=true&card_width=330&bg_color=161b22&title_color=36e2c3&text_color=c9d1d9&border_color=1a423d" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=soyeb-jim285&layout=compact&langs_count=8&hide_border=true&card_width=330&bg_color=fbf9f2&title_color=147b6d&text_color=1d242f&border_color=cfe9e2" />
-</picture>
-</td>
-</tr></table>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=soyeb-jim285&hide_border=true&background=161b22&border=1a423d&stroke=1a423d&ring=36e2c3&fire=36e2c3&currStreakNum=c9d1d9&currStreakLabel=36e2c3&sideNums=c9d1d9&sideLabels=36e2c3&dates=8b949e" />
-  <img src="https://streak-stats.demolab.com?user=soyeb-jim285&hide_border=true&background=fbf9f2&border=cfe9e2&stroke=cfe9e2&ring=147b6d&fire=147b6d&currStreakNum=1d242f&currStreakLabel=147b6d&sideNums=1d242f&sideLabels=147b6d&dates=6e7781" />
-</picture>
+<img width="100%" alt="Soyeb's GitHub stats" src="https://raw.githubusercontent.com/soyeb-jim285/soyeb-jim285/main/assets/statscard.svg?v=1" />
 
 </div>
 

@@ -1,4 +1,4 @@
-name: Refresh pathfinding
+name: Refresh profile
 
 on:
   schedule:
@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - scripts/gen_pathfinding.py
+      - scripts/gen_statscard.py
       - .github/workflows/pathfinding.yml
 
 permissions:
@@ -33,20 +34,45 @@ jobs:
                 }
               }
             }' -F login=soyeb-jim285 > calendar.json
-          python3 -c "import json;d=json.load(open('calendar.json'));w=d['data']['user']['contributionsCollection']['contributionCalendar']['weeks'];print('active days:',sum(1 for x in w for day in x['contributionDays'] if day['contributionCount']>0))"
 
-      - name: Generate SVG
-        run: python3 scripts/gen_pathfinding.py
+      - name: Fetch profile stats
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api graphql -f query='
+            query($login: String!) {
+              user(login: $login) {
+                name login createdAt followers { totalCount }
+                repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
+                  totalCount
+                  nodes {
+                    stargazerCount
+                    languages(first: 5, orderBy: {field: SIZE, direction: DESC}) {
+                      edges { size node { name } }
+                    }
+                  }
+                }
+                contributionsCollection {
+                  totalCommitContributions totalPullRequestContributions totalIssueContributions
+                  contributionCalendar { totalContributions }
+                }
+              }
+            }' -F login=soyeb-jim285 > profile.json
+
+      - name: Generate SVGs
+        run: |
+          python3 scripts/gen_pathfinding.py
+          python3 scripts/gen_statscard.py
 
       - name: Commit if changed
         run: |
-          rm -f calendar.json
-          if git diff --quiet -- assets/pathfinding.svg; then
+          rm -f calendar.json profile.json
+          if git diff --quiet -- assets/pathfinding.svg assets/statscard.svg; then
             echo "no change"
           else
             git config user.name  "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add assets/pathfinding.svg
-            git commit -m "chore: refresh A* contribution pathfinding"
+            git add assets/pathfinding.svg assets/statscard.svg
+            git commit -m "chore: refresh profile (A* + stats card)"
             git push
           fi
