@@ -123,7 +123,6 @@ xb=x0+300
 for i,(k,v) in enumerate(colB):
     y=ay+i*22
     L.append(f'<text class="key" x="{xb}" y="{y}">{k:<8}</text><text class="val" x="{xb+72}" y="{y}">{v}</text>')
-L.append(f'<text class="foc" x="{x0}" y="{ay+len(colA)*22+6}">focus: AI agents &#183; agentic workflows &#183; biosignal ML &#183; Qt/QML</text>')
 L.append(f'<line class="div" x1="24" y1="{H-46}" x2="{W-24}" y2="{H-46}" stroke-width="1"/>')
 bx,by,bw,bh=24,H-38,W-48,12; acc=0
 for n,s in top:
