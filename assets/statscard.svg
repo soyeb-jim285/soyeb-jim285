@@ -1,10 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 347" width="900" height="347" font-family="JetBrains Mono, Consolas, monospace" role="img" aria-label="github stats card">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 347" width="900" height="347" font-family="ui-monospace, &quot;Cascadia Code&quot;, &quot;JetBrains Mono&quot;, &quot;Fira Code&quot;, Consolas, Menlo, monospace" role="img" aria-label="github stats card">
   <style>
+    text{font-variant-ligatures:none;}
     .win{fill:#0d1117;stroke:#1a423d;} .bar{fill:#11161d;}
-    .t{fill:#5b6473;font-size:12px;} .key{fill:#36e2c3;font-size:13px;font-weight:600;}
-    .val{fill:#c9d1d9;font-size:13px;} .hdr{fill:#36e2c3;font-size:15px;font-weight:700;}
-    .at{fill:#f0a83b;font-size:14px;font-weight:700;} .face{fill:#36e2c3;} .foc{fill:#f0a83b;font-size:12px;}
-    .lg{fill:#8a93a3;font-size:11px;} .div{stroke:#1a423d;}
+    .t{fill:#5b6473;font-size:14px;} .key{fill:#36e2c3;font-size:16px;font-weight:600;}
+    .val{fill:#c9d1d9;font-size:16px;} .hdr{fill:#36e2c3;font-size:19px;font-weight:700;}
+    .at{fill:#f0a83b;font-size:16px;font-weight:700;} .face{fill:#36e2c3;} .foc{fill:#f0a83b;font-size:12px;}
+    .lg{fill:#8a93a3;font-size:12px;} .div{stroke:#1a423d;}
     @media (prefers-color-scheme:light){
       .win{fill:#ffffff;stroke:#cfe9e2;} .bar{fill:#f3f6f4;}
       .t{fill:#9aa2b0;} .key{fill:#0f9b86;} .val{fill:#1d242f;} .hdr{fill:#0f9b86;}
@@ -17,55 +18,55 @@
 <circle cx="22" cy="18" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="18" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="18" r="6" fill="#27c93f"/>
-<text class="t" x="98" y="22">soyeb@github: ~/profile</text>
-<text x="24" y="58" class="val"><tspan class="at">soyeb@github</tspan>:<tspan fill="#36e2c3">~</tspan>$ git fetch --stats</text>
-<text class="face" font-size="6.0" x="30" y="72.0" xml:space="preserve">                       -..+..-</text>
-<text class="face" font-size="6.0" x="30" y="78.2" xml:space="preserve">                  #--+-#++#+-+---.</text>
-<text class="face" font-size="6.0" x="30" y="84.4" xml:space="preserve">                .++###########+++--+</text>
-<text class="face" font-size="6.0" x="30" y="90.6" xml:space="preserve">               -++####+++#++####+#+-+-</text>
-<text class="face" font-size="6.0" x="30" y="96.8" xml:space="preserve">                +#+#++-..-...+++##+##+</text>
-<text class="face" font-size="6.0" x="30" y="103.0" xml:space="preserve">                -##+--......----+####+</text>
-<text class="face" font-size="6.0" x="30" y="109.2" xml:space="preserve">                -##-..........---+###.</text>
-<text class="face" font-size="6.0" x="30" y="115.4" xml:space="preserve">                 ##...+---++#+++---+#.</text>
-<text class="face" font-size="6.0" x="30" y="121.6" xml:space="preserve">                 +-+.-.#++#++++-++-+#</text>
-<text class="face" font-size="6.0" x="30" y="127.8" xml:space="preserve">                 .-+#--+#.#-+-+--+----</text>
-<text class="face" font-size="6.0" x="30" y="134.0" xml:space="preserve">                 -...---...#....-.--+.-</text>
-<text class="face" font-size="6.0" x="30" y="140.2" xml:space="preserve">                 .-+--------+--------.</text>
-<text class="face" font-size="6.0" x="30" y="146.4" xml:space="preserve">                 .-+-+-+###+++++----..</text>
-<text class="face" font-size="6.0" x="30" y="152.6" xml:space="preserve">                  -++##++-.+#-+-----</text>
-<text class="face" font-size="6.0" x="30" y="158.8" xml:space="preserve">                   -++.-++++---++-++</text>
-<text class="face" font-size="6.0" x="30" y="165.0" xml:space="preserve">                    ++-.+------++++++###</text>
-<text class="face" font-size="6.0" x="30" y="171.2" xml:space="preserve">                    +#++++++##+###++++++-+###+.</text>
-<text class="face" font-size="6.0" x="30" y="177.4" xml:space="preserve">                ---######+++#####+++##+###+---#----</text>
-<text class="face" font-size="6.0" x="30" y="183.6" xml:space="preserve">          -+-------#+#+++###+#+++++###+++#--#--------</text>
-<text class="face" font-size="6.0" x="30" y="189.8" xml:space="preserve">       -----++---++####+++++++++++####+++++#-#--+-----</text>
-<text class="face" font-size="6.0" x="30" y="196.0" xml:space="preserve">     --------+---+-######++++++++######+#+#-#-+--------</text>
-<text class="face" font-size="6.0" x="30" y="202.2" xml:space="preserve">   ------------------###++++++++++#####+#-+--+------++-</text>
-<text class="face" font-size="6.0" x="30" y="208.4" xml:space="preserve">  ----+-++--+-+++--+####+++++++++######+#--++-+-+++---+</text>
-<text class="face" font-size="6.0" x="30" y="214.6" xml:space="preserve"> ---+++-+++++++++--#+#####++++++#####+#++++---+--++----</text>
-<text class="face" font-size="6.0" x="30" y="220.8" xml:space="preserve">----+++--++##++---+++#######+++######+######+++++------</text>
-<text class="face" font-size="6.0" x="30" y="227.0" xml:space="preserve">----+-++#+###+-+#+#+-#######+###########+###+-#----+---</text>
-<text class="face" font-size="6.0" x="30" y="233.2" xml:space="preserve">-#+-#+-+#+###+##++#+-##+#########++##+##+###+#+-+------</text>
-<text class="face" font-size="6.0" x="30" y="239.4" xml:space="preserve">-----++##-######++#+++##+++#+####+###########+---------</text>
-<text class="face" font-size="6.0" x="30" y="245.6" xml:space="preserve">++-+#++##### +#++++-++###+######++###++#####-#-+#------</text>
-<text class="face" font-size="6.0" x="30" y="251.8" xml:space="preserve">.+++#+###-    #++++++-++++######+##+#++###++#++-+-+----</text>
-<text class="face" font-size="6.0" x="30" y="258.0" xml:space="preserve">...................-++--.-.....................---+----</text>
-<text class="face" font-size="6.0" x="30" y="264.2" xml:space="preserve">..................................................+----</text>
-<text class="face" font-size="6.0" x="30" y="270.4" xml:space="preserve">....................................................+--</text>
-<text class="face" font-size="6.0" x="30" y="276.6" xml:space="preserve">---------+++--....................--------............+</text>
-<text class="face" font-size="6.0" x="30" y="282.8" xml:space="preserve">+++++++++++   ---.........-....+...++++++++------------</text>
-<text class="hdr" x="300" y="92">Soyeb Pervez Jim</text>
-<text class="t" x="300" y="109">@soyeb-jim285  &#183;  EEE @ Univ. of Dhaka</text>
-<text class="key" x="300" y="140">since     </text><text class="val" x="392" y="140">2018 ~8 yrs</text>
-<text class="key" x="300" y="162">commits   </text><text class="val" x="392" y="162">785 / yr</text>
-<text class="key" x="300" y="184">contribs  </text><text class="val" x="392" y="184">1,805 / yr</text>
-<text class="key" x="300" y="206">PRs       </text><text class="val" x="392" y="206">3 / yr</text>
-<text class="key" x="300" y="228">followers </text><text class="val" x="392" y="228">2</text>
-<text class="key" x="600" y="140">repos   </text><text class="val" x="672" y="140">36</text>
-<text class="key" x="600" y="162">stars   </text><text class="val" x="672" y="162">9</text>
-<text class="key" x="600" y="184">streak  </text><text class="val" x="672" y="184">2 days</text>
-<text class="key" x="600" y="206">longest </text><text class="val" x="672" y="206">17 days</text>
-<text class="key" x="600" y="228">best day</text><text class="val" x="672" y="228">62 commits</text>
+<text class="t" x="98" y="23" font-size="13">soyeb@github: ~/profile</text>
+<text x="24" y="60" class="val"><tspan class="at">soyeb@github</tspan>:<tspan fill="#36e2c3">~</tspan>$ git fetch --stats</text>
+<text class="face" font-size="6.0" x="30" y="78.0" xml:space="preserve">                       -..+..-</text>
+<text class="face" font-size="6.0" x="30" y="84.2" xml:space="preserve">                  #--+-#++#+-+---.</text>
+<text class="face" font-size="6.0" x="30" y="90.4" xml:space="preserve">                .++###########+++--+</text>
+<text class="face" font-size="6.0" x="30" y="96.6" xml:space="preserve">               -++####+++#++####+#+-+-</text>
+<text class="face" font-size="6.0" x="30" y="102.8" xml:space="preserve">                +#+#++-..-...+++##+##+</text>
+<text class="face" font-size="6.0" x="30" y="109.0" xml:space="preserve">                -##+--......----+####+</text>
+<text class="face" font-size="6.0" x="30" y="115.2" xml:space="preserve">                -##-..........---+###.</text>
+<text class="face" font-size="6.0" x="30" y="121.4" xml:space="preserve">                 ##...+---++#+++---+#.</text>
+<text class="face" font-size="6.0" x="30" y="127.6" xml:space="preserve">                 +-+.-.#++#++++-++-+#</text>
+<text class="face" font-size="6.0" x="30" y="133.8" xml:space="preserve">                 .-+#--+#.#-+-+--+----</text>
+<text class="face" font-size="6.0" x="30" y="140.0" xml:space="preserve">                 -...---...#....-.--+.-</text>
+<text class="face" font-size="6.0" x="30" y="146.2" xml:space="preserve">                 .-+--------+--------.</text>
+<text class="face" font-size="6.0" x="30" y="152.4" xml:space="preserve">                 .-+-+-+###+++++----..</text>
+<text class="face" font-size="6.0" x="30" y="158.6" xml:space="preserve">                  -++##++-.+#-+-----</text>
+<text class="face" font-size="6.0" x="30" y="164.8" xml:space="preserve">                   -++.-++++---++-++</text>
+<text class="face" font-size="6.0" x="30" y="171.0" xml:space="preserve">                    ++-.+------++++++###</text>
+<text class="face" font-size="6.0" x="30" y="177.2" xml:space="preserve">                    +#++++++##+###++++++-+###+.</text>
+<text class="face" font-size="6.0" x="30" y="183.4" xml:space="preserve">                ---######+++#####+++##+###+---#----</text>
+<text class="face" font-size="6.0" x="30" y="189.6" xml:space="preserve">          -+-------#+#+++###+#+++++###+++#--#--------</text>
+<text class="face" font-size="6.0" x="30" y="195.8" xml:space="preserve">       -----++---++####+++++++++++####+++++#-#--+-----</text>
+<text class="face" font-size="6.0" x="30" y="202.0" xml:space="preserve">     --------+---+-######++++++++######+#+#-#-+--------</text>
+<text class="face" font-size="6.0" x="30" y="208.2" xml:space="preserve">   ------------------###++++++++++#####+#-+--+------++-</text>
+<text class="face" font-size="6.0" x="30" y="214.4" xml:space="preserve">  ----+-++--+-+++--+####+++++++++######+#--++-+-+++---+</text>
+<text class="face" font-size="6.0" x="30" y="220.6" xml:space="preserve"> ---+++-+++++++++--#+#####++++++#####+#++++---+--++----</text>
+<text class="face" font-size="6.0" x="30" y="226.8" xml:space="preserve">----+++--++##++---+++#######+++######+######+++++------</text>
+<text class="face" font-size="6.0" x="30" y="233.0" xml:space="preserve">----+-++#+###+-+#+#+-#######+###########+###+-#----+---</text>
+<text class="face" font-size="6.0" x="30" y="239.2" xml:space="preserve">-#+-#+-+#+###+##++#+-##+#########++##+##+###+#+-+------</text>
+<text class="face" font-size="6.0" x="30" y="245.4" xml:space="preserve">-----++##-######++#+++##+++#+####+###########+---------</text>
+<text class="face" font-size="6.0" x="30" y="251.6" xml:space="preserve">++-+#++##### +#++++-++###+######++###++#####-#-+#------</text>
+<text class="face" font-size="6.0" x="30" y="257.8" xml:space="preserve">.+++#+###-    #++++++-++++######+##+#++###++#++-+-+----</text>
+<text class="face" font-size="6.0" x="30" y="264.0" xml:space="preserve">...................-++--.-.....................---+----</text>
+<text class="face" font-size="6.0" x="30" y="270.2" xml:space="preserve">..................................................+----</text>
+<text class="face" font-size="6.0" x="30" y="276.4" xml:space="preserve">....................................................+--</text>
+<text class="face" font-size="6.0" x="30" y="282.6" xml:space="preserve">---------+++--....................--------............+</text>
+<text class="face" font-size="6.0" x="30" y="288.8" xml:space="preserve">+++++++++++   ---.........-....+...++++++++------------</text>
+<text class="hdr" x="300" y="98">Soyeb Pervez Jim</text>
+<text class="t" x="300" y="118">@soyeb-jim285  &#183;  EEE @ Univ. of Dhaka</text>
+<text class="key" x="300" y="152">since     </text><text class="val" x="408" y="152">2018 ~8 yrs</text>
+<text class="key" x="300" y="179">commits   </text><text class="val" x="408" y="179">786 / yr</text>
+<text class="key" x="300" y="206">contribs  </text><text class="val" x="408" y="206">1,806 / yr</text>
+<text class="key" x="300" y="233">PRs       </text><text class="val" x="408" y="233">3 / yr</text>
+<text class="key" x="300" y="260">followers </text><text class="val" x="408" y="260">2</text>
+<text class="key" x="610" y="152">repos    </text><text class="val" x="702" y="152">36</text>
+<text class="key" x="610" y="179">stars    </text><text class="val" x="702" y="179">9</text>
+<text class="key" x="610" y="206">streak   </text><text class="val" x="702" y="206">2 days</text>
+<text class="key" x="610" y="233">longest  </text><text class="val" x="702" y="233">17 days</text>
+<text class="key" x="610" y="260">best day </text><text class="val" x="702" y="260">62 commits</text>
 <line class="div" x1="24" y1="301" x2="876" y2="301" stroke-width="1"/>
 <rect x="24.0" y="309" width="238.6" height="12" fill="#F34B7D" rx="2"/>
 <rect x="264.1" y="309" width="229.7" height="12" fill="#3572A5" rx="2"/>
