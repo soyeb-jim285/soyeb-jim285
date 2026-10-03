@@ -58,26 +58,26 @@
 <text class="hdr" x="300" y="98">Soyeb Pervez Jim</text>
 <text class="t" x="300" y="118">@soyeb-jim285  &#183;  EEE @ Univ. of Dhaka</text>
 <text class="key" x="300" y="152">since     </text><text class="val" x="408" y="152">2018 ~8 yrs</text>
-<text class="key" x="300" y="179">commits   </text><text class="val" x="408" y="179">1202 / yr</text>
-<text class="key" x="300" y="206">contribs  </text><text class="val" x="408" y="206">3,266 / yr</text>
+<text class="key" x="300" y="179">commits   </text><text class="val" x="408" y="179">1244 / yr</text>
+<text class="key" x="300" y="206">contribs  </text><text class="val" x="408" y="206">3,308 / yr</text>
 <text class="key" x="300" y="233">PRs       </text><text class="val" x="408" y="233">7 / yr</text>
 <text class="key" x="300" y="260">followers </text><text class="val" x="408" y="260">4</text>
 <text class="key" x="610" y="152">repos    </text><text class="val" x="702" y="152">40</text>
-<text class="key" x="610" y="179">stars    </text><text class="val" x="702" y="179">328</text>
-<text class="key" x="610" y="206">streak   </text><text class="val" x="702" y="206">15 days</text>
+<text class="key" x="610" y="179">stars    </text><text class="val" x="702" y="179">330</text>
+<text class="key" x="610" y="206">streak   </text><text class="val" x="702" y="206">16 days</text>
 <text class="key" x="610" y="233">longest  </text><text class="val" x="702" y="233">69 days</text>
 <text class="key" x="610" y="260">best day </text><text class="val" x="702" y="260">101 commits</text>
 <line class="div" x1="24" y1="301" x2="876" y2="301" stroke-width="1"/>
-<rect x="24.0" y="309" width="221.9" height="12" fill="#3178C6" rx="2"/>
-<rect x="247.4" y="309" width="205.2" height="12" fill="#F34B7D" rx="2"/>
-<rect x="454.0" y="309" width="175.7" height="12" fill="#3572A5" rx="2"/>
-<rect x="631.2" y="309" width="121.5" height="12" fill="#44A51C" rx="2"/>
-<rect x="754.3" y="309" width="59.6" height="12" fill="#3D6117" rx="2"/>
-<rect x="815.4" y="309" width="59.1" height="12" fill="#36e2c3" rx="2"/>
-<circle cx="27" cy="333" r="3" fill="#3178C6"/><text class="lg" x="34" y="337">TypeScript 26%</text>
-<circle cx="139.2" cy="333" r="3" fill="#F34B7D"/><text class="lg" x="146.2" y="337">C++ 24%</text>
-<circle cx="207.29999999999998" cy="333" r="3" fill="#3572A5"/><text class="lg" x="214.29999999999998" y="337">Python 21%</text>
+<rect x="24.0" y="309" width="235.5" height="12" fill="#3178C6" rx="2"/>
+<rect x="261.0" y="309" width="193.0" height="12" fill="#F34B7D" rx="2"/>
+<rect x="455.5" y="309" width="168.6" height="12" fill="#3572A5" rx="2"/>
+<rect x="625.6" y="309" width="114.3" height="12" fill="#44A51C" rx="2"/>
+<rect x="741.4" y="309" width="67.3" height="12" fill="#36e2c3" rx="2"/>
+<rect x="810.1" y="309" width="64.4" height="12" fill="#36e2c3" rx="2"/>
+<circle cx="27" cy="333" r="3" fill="#3178C6"/><text class="lg" x="34" y="337">TypeScript 28%</text>
+<circle cx="139.2" cy="333" r="3" fill="#F34B7D"/><text class="lg" x="146.2" y="337">C++ 23%</text>
+<circle cx="207.29999999999998" cy="333" r="3" fill="#3572A5"/><text class="lg" x="214.29999999999998" y="337">Python 20%</text>
 <circle cx="294.29999999999995" cy="333" r="3" fill="#44A51C"/><text class="lg" x="301.29999999999995" y="337">QML 14%</text>
-<circle cx="362.4" cy="333" r="3" fill="#3D6117"/><text class="lg" x="369.4" y="337">TeX 7%</text>
-<circle cx="424.2" cy="333" r="3" fill="#36e2c3"/><text class="lg" x="431.2" y="337">Swift 7%</text>
+<circle cx="362.4" cy="333" r="3" fill="#36e2c3"/><text class="lg" x="369.4" y="337">Swift 8%</text>
+<circle cx="436.79999999999995" cy="333" r="3" fill="#36e2c3"/><text class="lg" x="443.79999999999995" y="337">Kotlin 8%</text>
 </svg>
